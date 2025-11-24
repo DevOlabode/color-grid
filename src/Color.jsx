@@ -12,7 +12,12 @@ export default function Color({colors}){
     }
     return (
         <>
-        <button className="box"></button>
+        <button 
+        className="box"
+        style = {{backgroundColor : color}}
+        onClick = {changeColor}>
+            {color}
+        </button>
         </>
     )
 }
