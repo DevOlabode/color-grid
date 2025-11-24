@@ -16,7 +16,6 @@ export default function Color({colors}){
         className="box"
         style = {{backgroundColor : color}}
         onClick = {changeColor}>
-            {color}
         </button>
         </>
     )
