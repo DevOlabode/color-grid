@@ -1,11 +1,12 @@
-import './App.css'
+import './App.css';
 import ColorBox from './ColorBox';
+import Color from './Color'
 
 function App() {
 
   return (
     <>
-    <ColorBox colors={[
+    <Color colors={[
    "#FF5733",
     "#33FF57",
     "#3357FF",
