@@ -6,8 +6,6 @@ export default function Color({colors}){
 
     function changeColor(){
         let newColor = colors[Math.floor(Math.random() * colors.length)];
-        console.log(newColor);
-
         setColor(newColor)
     }
     return (

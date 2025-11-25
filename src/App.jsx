@@ -1,12 +1,13 @@
 import './App.css';
 import ColorBox from './ColorBox';
 import Color from './Color'
+import ColorBoxGrid from './ColorBoxGrid'
 
 function App() {
 
   return (
     <>
-    <Color colors={[
+    <ColorBoxGrid colors={[
    "#FF5733",
     "#33FF57",
     "#3357FF",
